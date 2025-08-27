@@ -9,8 +9,7 @@ from datetime import datetime, timedelta
 
 # Misskey API 설정
 MISSKEY_URL = "https://it.21stcentury.day"
-API_TOKEN = "NX2YWgEHHV4iUIARk0rhUhqDA8ttvzjm"
-
+API_TOKEN = "API_TOKEN"
 # 텍스트 제한 함수
 def truncate_text(text, max_length=3000):
     if len(text) > max_length:
